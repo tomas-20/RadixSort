@@ -4,7 +4,7 @@ public class SortTester {
     for (int i = 0; i < args.length; i ++) {
       bob.add(Integer.parseInt(args[i]));
     }
-    Radix.radixSortSimple(bob);
+    Radix.radixSort(bob);
     System.out.println(bob);
   }
 }
